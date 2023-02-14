@@ -3,7 +3,7 @@
 cd ~
 rm -Rf ./majordomo-rpi-install
 sudo apt-get install -y git
-git clone https://github.com/sergejey/majordomo-rpi-install.git
+git clone https://github.com/akakisoni/majordomo-rpi-install.git
 
 if [ "$0" == *"curl"* ]; then
   echo "Running from curl. Restarting..."
@@ -14,7 +14,7 @@ cd majordomo-rpi-install
 clear
 
 echo "Welcome to MajorDoMo installation script for Raspberry Pi!"
-echo "More details at https://github.com/sergejey/majordomo-rpi-install"
+echo "More details at https://github.com/akakisoni/majordomo-rpi-install"
 echo ""
 read -p "Ok, are you ready to start? [y]: " startReady
 startReady=${startReady:-y}
